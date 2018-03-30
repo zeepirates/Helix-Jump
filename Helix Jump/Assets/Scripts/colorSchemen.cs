@@ -5,7 +5,7 @@ using UnityEngine;
 /**
  * 材质管理
  */
-public class colorSchemen : MonoBehaviour
+public class ColorSchemen : MonoBehaviour
 {
     [Header("基础材质")]
     [Tooltip("背景（参考）")]
