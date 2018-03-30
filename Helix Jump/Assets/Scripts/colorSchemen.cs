@@ -22,9 +22,8 @@ public class ColorSchemen : MonoBehaviour
     public Material trailGlobal;
     [Tooltip("拖尾材质（参考）")]
     public Material trailRef;
-    [Tooltip("精灵渲染器")]
+    [Tooltip("落地痕迹")]
     public SpriteRenderer spot;
-
 
     [Header("背景材质")]
     [Tooltip("背景")]

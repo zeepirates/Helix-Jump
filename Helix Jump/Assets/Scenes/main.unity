@@ -2369,7 +2369,6 @@ MonoBehaviour:
   psSplash: {fileID: 401329467}
   decal:
   - {fileID: 1242250511}
-  - {fileID: 1327051773}
   plusAwesomePrefab: {fileID: 1614695206409568, guid: 0a86183286fb83b4eb491e6352d1d5e9,
     type: 2}
   plusPrefab: {fileID: 1929166425109604, guid: 4e7374b4ab591e04c9531b8bb239ffc3, type: 2}
@@ -2403,7 +2402,7 @@ TrailRenderer:
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e2670a4a8f49cb499678924f478289a, type: 2}
+  - {fileID: 2100000, guid: 7970151a8dfc74345ab963c571c0bf9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2541,7 +2540,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 2
-  randomSeed: -585091246
+  randomSeed: 1833991320
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -8424,7 +8423,7 @@ MonoBehaviour:
   platformRef: {fileID: 2100000, guid: 8c95e47db8ca4444c8de4dab553e90ef, type: 2}
   trailGlobal: {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
   trailRef: {fileID: 2100000, guid: fee355a7fc16c6149b336c2d488e0ffa, type: 2}
-  spot: {fileID: 0}
+  spot: {fileID: 1242250513}
   background:
   - {fileID: 2100000, guid: 1d731744d9b3f3643b2877caa096c023, type: 2}
   - {fileID: 2100000, guid: 44c25afdc99aa8f45a2ea59772930d53, type: 2}
@@ -8468,12 +8467,12 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 75217723c2ffe4844b8d222bd8fe5437, type: 2}
   - {fileID: 2100000, guid: 61b36d25185bc73459ec90b32ae92d44, type: 2}
   trail:
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
-  - {fileID: 2100000, guid: 844e36b34a607394f8dfcd273c4e3a50, type: 2}
+  - {fileID: 2100000, guid: 63cbf79bc1364f44f942d36b6e96943d, type: 2}
+  - {fileID: 2100000, guid: b8080d59f6e28334393f9958758931ad, type: 2}
+  - {fileID: 2100000, guid: d6b2ec54a8983bd4f930cf99810f5c9a, type: 2}
+  - {fileID: 2100000, guid: e36e4e5271dfcf645846c1b93348cb94, type: 2}
+  - {fileID: 2100000, guid: 474edfb6ac6c8194984d0474c039aa63, type: 2}
+  - {fileID: 2100000, guid: a9d824bd24690964abe398a05aa1f96f, type: 2}
 --- !u!1 &903921689
 GameObject:
   m_ObjectHideFlags: 0
