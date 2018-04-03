@@ -2,7 +2,7 @@
 	//属性
 	Properties
        {
-			_MainColor("主颜色",Color) = (1,1,1,0)	//四值（RGBA）
+			_MainColor("漫反射颜色",Color) = (1,1,1,0)	//四值（RGBA）
 			_MidColor("中间颜色",Color) = (1,1,1,0)	//四值（RGBA）
 			_SpecColor("反射高光",Color) = (1,1,1,0) //
 			_Shininess("光泽度",Range(0.1,2)) = 0.7
