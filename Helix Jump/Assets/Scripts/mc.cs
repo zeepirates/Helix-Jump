@@ -29,7 +29,7 @@ public class mc : BaseSceneManager<mc>
     public GameObject AddMoneyRestart;
     public Text AddMoneyRestartText;
     //
-    public Animator anim;
+    public Animator anim;//动画，球面发生碰撞扭曲
     public GameObject AnimatedButton;//
     public Text best;//Text：最好成绩
     public GameObject bestUI;//最好成绩的UI（没啥用）
@@ -253,7 +253,7 @@ public class mc : BaseSceneManager<mc>
         //TapticManager.Impact(ImpactFeedback.Midium);
         this.splashAudio.Play();
         this.setUpvelocity = true;
-        //this.anim.Play("Base Layer.Splash", 0, 0f);//飞溅开来
+        this.anim.Play("Base Layer.Splash", 0, 0f);//飞溅开来
         this.currentPlayformId++;
     }
 
@@ -350,7 +350,7 @@ public class mc : BaseSceneManager<mc>
                 //TapticManager.Impact(ImpactFeedback.Midium);
                 this.splashAudio.Play();
                 this.setUpvelocity = true;
-                //this.anim.Play("Base Layer.Splash", 0, 0f);
+                this.anim.Play("Base Layer.Splash", 0, 0f);
             }
         }
         else
@@ -364,7 +364,7 @@ public class mc : BaseSceneManager<mc>
             //震动
             //TapticManager.Impact(ImpactFeedback.Light);
             this.setUpvelocity = true;
-            //this.anim.Play("Base Layer.Splash", 0, 0f);
+            this.anim.Play("Base Layer.Splash", 0, 0f);
             if (this.scoreNow == 0)
             {
                 this.Fail();
