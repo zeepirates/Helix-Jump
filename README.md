@@ -13,7 +13,4 @@ AppStore下载地址：https://itunes.apple.com/app/id1345968745
 Unity 2017.3.1f
 
 ## 进度
-完成开发
-
-## 关于广告模块
-可以自行添加ADMOB等SDK模块
+不做任何维护
