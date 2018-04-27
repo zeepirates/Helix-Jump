@@ -13,4 +13,4 @@ AppStore下载地址：https://itunes.apple.com/app/id1345968745
 Unity 2017.3.1f
 
 ## 进度
-不做任何维护
+移除项目
